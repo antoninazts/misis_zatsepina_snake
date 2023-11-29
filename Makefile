@@ -1,8 +1,8 @@
 build:
-  sudo docker build -t misis_zatsepina_snake .
+    sudo docker build -t misis_zatsepina_snake .
 
 run_local:
-  python main.py
+    python main.py
 
 run:
-  sudo docker run -p 7023:80 misis_zatsepina_snake
+    sudo docker run -p 7023:80 misis_zatsepina_snake
